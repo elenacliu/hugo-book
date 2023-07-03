@@ -26,3 +26,5 @@
 {{ with $script.Content }}
   <script>{{ . | safeJS }}</script>
 {{ end }}
+
+{{ partial "mathjax.html" . }}
